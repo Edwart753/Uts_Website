@@ -66,13 +66,13 @@ header ul li
 header ul li a
 {
     text-decoration: none;
-    padding: 6px 15px;
+    padding: 10px 10px;
     color: black;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 header ul li a:hover,
 header ul li a.active{
     background: white;
-    color : #2b1055;
+    color : black;
 }
