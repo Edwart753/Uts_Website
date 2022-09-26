@@ -30,13 +30,21 @@ header{
     top:0;
     left:0;
     width:100%;
-    padding:10px 100px;
     display  : flex;
     justify-content : space-between;
     align-items: center;
     z-index: 10000;
     background-color: white;
 
+}
+#navbars{
+    padding:10px 100px;
+}
+
+#cashier{
+    width: 100px;
+    padding: 10px 10px;
+    
 }
 
 header .logo
