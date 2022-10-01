@@ -6,10 +6,6 @@ body{
     background-color: #ffffff;
 }
 
-/*=======================
- adding style to about-1 
-=======================*/
-
 .about-1{
     margin: 30px;
     padding: 5px;
@@ -25,10 +21,6 @@ body{
     color: gray;
 }
 
-/*===========================
- adding style to about items 
-============================*/
-
 .about-item{
     margin-bottom: 20px;
     margin-top: 20px;
@@ -37,25 +29,16 @@ body{
     box-shadow: 0 0 9px rgba(0,0,0.6);
 }
 
-/*======================================
-adding style to the icons(book,globe,pencil)
-=========================================*/
 .about-item i{
     font-size: 43px;
     margin: 0;
 }
 
-/*======================================
-adding style to h3(heading 3) of each item 
-=========================================*/
 .about-item h3{
     font-size: 25px;
     margin-bottom: 10px;
 }
 
-/*======================================
-styling the hr (the blue line in between)
-=========================================*/
 .about-item hr{
     width: 46px;
     height: 3px;
@@ -65,9 +48,6 @@ styling the hr (the blue line in between)
     text-align: center;
 }
 
-/*========================================
-hover means when you put your cursor over it
-=========================================*/
 .about-item:hover{
     background-color: #5fbff9;
 }
@@ -80,9 +60,6 @@ hover means when you put your cursor over it
     background-color: #fff;
 }
 
-/*==============================================================================
-translate Y: move along the Y axis, negative(-20) moves it up, while positive(20) moves in down by  
-================================================================================*/
 .about-item:hover svg{
     transform: translateY(-20px);
 }
@@ -99,23 +76,3 @@ footer{
 footer p{
     color: #fff;
 }
-
-/*================================================================================
-if you manage it to this far, congratulations, check more on https://devhubke.com
-=================================================================================*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
