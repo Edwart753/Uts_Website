@@ -1,9 +1,7 @@
 *{
-    padding: 0;
     margin: 0;
-}
-body{
-    background-color: #ffffff;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .header{
@@ -31,6 +29,7 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+    margin-top: -79;
 }
 
 .nav-links ul li{
@@ -66,26 +65,34 @@ nav img{
     left:50%;
     transform:translate(-50%,-50%);
     text-align: center;
-    margin-bottom: 20px;
 
+}
+
+.text-box h1{
+    font-size:62px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color:#fff;
 }
 
 .hero-btn{
-    margin-top: 50px;
-    text-decoration: none;
     display: inline-block;
-    padding: 8px 30px;
-    border-radius: 40px;
-    background: #ffff;
-    color: #2b1055;
-    font-size: 1.5em;
-    z-index: 9;
-    transform: translateY(100px);
+    text-decoration: none;
+    color: #ffff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
 }
 
 .hero-btn:hover{
-    border: 1px solide red;
-    background: red;
+    border: 1px solide #c3b091;
+    background: #c3b091;
     transition: 1s;
 }
 
@@ -99,16 +106,23 @@ nav img{
 .about-1{
     margin: 30px;
     padding: 5px;
+    margin-top: 72px;
 }
+
 .about-1 h1{
     text-align: center;
     color: black;
     font-weight: bold;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 20px;
 }
+
 .about-1 p{
     text-align: center;
     padding: 3px;
     color: gray;
+    margin-top: -10px;
 }
 
 .about-item{
@@ -159,10 +173,25 @@ nav img{
     transition: all 400ms ease-in-out;
 }
 
-footer{
-    background: #212226;
-    padding: 20px;
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
 }
-footer p{
-    color: #fff;
+
+.footer h4{
+    margin-bottom: 22px ;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px
+}
+.kontak{
+    margin-bottom: -2px;
+}
+
+.icons .fa{
+    color: #c3b091;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
 }
