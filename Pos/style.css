@@ -42,7 +42,7 @@ section{
 /* HEADER */
 
 header{
-    position:initial;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -62,7 +62,6 @@ header{
     font-size: 1.1rem;
     color:var(--text-color);
     font-weight: 400;
-    padding-left: 480px;
 }
 
 #cart-icon{
@@ -204,17 +203,14 @@ header{
 
 }
 
-.shop{
-    margin-top: 2rem;
-    padding-left: 80px;
 
-}
 
 
 /* SHOP */
 
 .shop{
     margin-top: 2rem;
+    padding-left: 80px;
 }
 
 .shop-content{
