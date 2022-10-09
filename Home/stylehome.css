@@ -202,8 +202,6 @@ h3{
     
 }
 
-
-
 .sponsor{
     width: 100%;
     text-align: center;
@@ -219,28 +217,13 @@ h3{
     justify-content: space-between;
 }
 
-
-/* footer */
-
-.footer{
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
+.kota{
+ margin-top: -120px;
 }
 
-.footer h4{
-    margin-bottom:25px ;
-    margin-top: 20px;
-    font-weight: 600;
+.putih{
+color: rgb(255, 255, 255);
 }
-
-.icons .fa{
-    color: #c3b091;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
-}
-
 
 .rowg{
     display:flex;
@@ -252,12 +235,11 @@ h3{
     flex-basis:50%;
   }
   
-  h6{
+  .col h4{
+    margin-top: -4px;
     color:rgb(12, 12, 12);
     font-size:40px;
   }
-  
-  
   
   button{
     width: 180px;
@@ -270,6 +252,7 @@ h3{
     outline: none;
     margin-top: 30px;
   }
+
   .card{
     width: 200px;
     height: 230px;
@@ -282,23 +265,28 @@ h3{
     background-position: center;
     background-size:cover;
     transition:transform 0.5s;
-    
   }
+
   .card1{
     background-image: url(image/pic-1.png);
   }
+
   .card2{
     background-image: url(image/pic-2.png);
   }
+
   .card3{
     background-image: url(image/pic-3.png);
   }
+
   .card4{
     background-image: url(image/pic-4.png);
   }
+
   .card5{
     background-image: url(image/pic-5.png);
   }
+
   .card6{
     background-image: url(image/pic-6.png);
   }
@@ -306,14 +294,39 @@ h3{
   .card:hover{
     transform: translateY(-10px);
   }
+
   h5{
     color:#fff;
     text-shadow:0 0 5px #999;
   }
+
   .card p{
     text-shadow: 0 0 15px #000;
     font-size:8px;
   }
   
   
+/* footer */
 
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 22px ;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px
+}
+.kontak{
+    margin-bottom: -2px;
+}
+
+.icons .fa{
+    color: #c3b091;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
