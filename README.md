@@ -1,6 +1,6 @@
 # Uts_Website
 
-Gian Asmarian - 535210078
+Gian Pratista - 535210078
 
 Nicholas Louis - 535210079
 
