@@ -1,0 +1,32 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+class category_m extends CI_Model {
+
+    public function get($id=null){
+
+        $this->db->from('p_category');
+        if($id !=null){
+            $this->db->where('category_id', $id);
+        }
+        $query = $this->db->get();
+        return $query;
+         
+    }
+
+
+    public function add($post){
+        $params = [
+            'name' => $post['category_name'],
+        ];
+        $this->db->insert('p_category', $params);
+    }
+
+
+    public function del($id)
+	{
+		$this->db->where('category_id', $id);
+		$this->db->delete('p_category');
+	}
+    
+
+}
